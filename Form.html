@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form
+        </title>
+    </head>
+    <body>
+    <form>
+        <h1>My bio data</h1>
+        <fieldset>
+            <legend>Personal information</legend>
+            <lebel for="firstname">First Name:</lebel>   <input type="text" id="firstname"></input>
+            <lebel for="lastname">Last Name:</lebel>    <input type="text" id="lasname"></input>
+            <br><br>
+            Gender:
+            <lebel for="male">Male</lebel>
+            <input type="radio" name="gender id=male"></input>
+            <lebel for="female">Female</lebel>
+            <input type="radio" name="gender id=female"></input>
+            <lebel for="other">Other</lebel>
+            <input type="radio" name="gender id=other"></input>
+            <br><br>
+            Date of Birth:
+            <input type="date"></input>
+            <br><br>
+            E-Mail:
+            <input type="email" placeholder="Enter your email"></input>
+            <br><br>
+            Mobile No.
+            <input type="number" maxlength=10 placeholder="+91"></input>
+            <br><br>
+            Height:
+            <input type="number" Placeholder="cm"></input>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Education</legend>
+            School Name:
+            <input type="text"></input>
+            <br><br>
+            Class:
+            <input type="number"></input>
+            <br><br>
+            Stream:
+            <select name="stream">
+                <option>Science</option>
+                <option>Commerce</option>
+                <option>Arts</option>
+            </select>
+            <br><br>
+            Marksheet:
+            <input type="file"></input>
+            <br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit"></input>
+    </form>
+    </body>
+</html>
