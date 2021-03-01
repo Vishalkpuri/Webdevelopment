@@ -1,0 +1,27 @@
+*{
+    box-sizing:boder-box ;
+    font-size: 20px;
+
+}
+dt{
+    background-color:green;
+    color:yellow;
+    font-size:50px;
+    position: sticky; 
+    top:10px;
+    
+}
+div{
+    font-size:25px;
+    color: red;
+    background-color:rosybrown;
+    border-bottom:1px rgb(19, 18, 17);
+    margin: 10px;
+  /*   
+    overflow: scroll;
+    overflow: hidden;
+    overflow: auto;
+    overflow: visible;*/
+    
+
+}
